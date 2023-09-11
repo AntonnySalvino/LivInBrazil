@@ -129,16 +129,25 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                           fontWeight: FontWeight.bold,
                                         ),
                                   ),
-                                  Text(
-                                    'Já tem uma conta? Faça login',
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .override(
-                                          fontFamily: 'Readex Pro',
-                                          color: Color(0xFF545E66),
-                                          fontSize: 10.0,
-                                          fontWeight: FontWeight.w100,
-                                        ),
+                                  InkWell(
+                                    splashColor: Colors.transparent,
+                                    focusColor: Colors.transparent,
+                                    hoverColor: Colors.transparent,
+                                    highlightColor: Colors.transparent,
+                                    onTap: () async {
+                                      context.pushNamed('HomePage');
+                                    },
+                                    child: Text(
+                                      'Já tem uma conta? Faça login',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Readex Pro',
+                                            color: Color(0xFF545E66),
+                                            fontSize: 10.0,
+                                            fontWeight: FontWeight.w100,
+                                          ),
+                                    ),
                                   ),
                                   Container(
                                     width:
@@ -182,10 +191,15 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .labelMedium,
-                                                  hintStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .labelMedium,
+                                                  hintStyle: FlutterFlowTheme
+                                                          .of(context)
+                                                      .labelMedium
+                                                      .override(
+                                                        fontFamily:
+                                                            'Readex Pro',
+                                                        color:
+                                                            Color(0xFF020101),
+                                                      ),
                                                   enabledBorder:
                                                       OutlineInputBorder(
                                                     borderSide: BorderSide(
@@ -240,9 +254,13 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                                   ),
                                                   filled: true,
                                                 ),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium,
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color: Color(0xFF020101),
+                                                    ),
                                                 validator: _model
                                                     .emailTextControllerValidator
                                                     .asValidator(context),
@@ -289,9 +307,13 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                                 labelStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelMedium,
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .labelMedium,
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .labelMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color: Color(0xFF020101),
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -359,9 +381,13 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                                   ),
                                                 ),
                                               ),
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium,
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    color: Color(0xFF020101),
+                                                  ),
                                               validator: _model
                                                   .passwordTextControllerValidator
                                                   .asValidator(context),
@@ -407,9 +433,13 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                                 labelStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelMedium,
-                                                hintStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .labelMedium,
+                                                hintStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .labelMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color: Color(0xFF020101),
+                                                    ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -477,9 +507,13 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                                   ),
                                                 ),
                                               ),
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium,
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    color: Color(0xFF020101),
+                                                  ),
                                               validator: _model
                                                   .confirmPasswordTextControllerValidator
                                                   .asValidator(context),
