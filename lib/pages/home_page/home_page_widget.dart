@@ -123,6 +123,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         .bodyMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
+                                          color: Color(0xFF020101),
                                           fontSize: 32.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -133,6 +134,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         .bodyMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
+                                          color: Color(0xFF545E66),
                                           fontSize: 10.0,
                                           fontWeight: FontWeight.w100,
                                         ),
@@ -154,9 +156,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 -1.00, 0.00),
                                             child: Text(
                                               'Email',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium,
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    color: Color(0xFF020101),
+                                                  ),
                                             ),
                                           ),
                                           Align(
@@ -261,7 +267,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           child: Text(
                                             'Senha',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  color: Color(0xFF020101),
+                                                ),
                                           ),
                                         ),
                                         Align(
@@ -421,6 +431,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           .bodyMedium
                                           .override(
                                             fontFamily: 'Readex Pro',
+                                            color: Color(0xFF545E66),
                                             fontSize: 10.0,
                                             fontWeight: FontWeight.w100,
                                           ),

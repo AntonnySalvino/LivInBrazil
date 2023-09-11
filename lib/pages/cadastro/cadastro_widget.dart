@@ -124,6 +124,7 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                         .bodyMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
+                                          color: Color(0xFF020101),
                                           fontSize: 32.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -134,6 +135,7 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                         .bodyMedium
                                         .override(
                                           fontFamily: 'Readex Pro',
+                                          color: Color(0xFF545E66),
                                           fontSize: 10.0,
                                           fontWeight: FontWeight.w100,
                                         ),
@@ -155,9 +157,13 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                                 -1.00, 0.00),
                                             child: Text(
                                               'Nome/Email',
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium,
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'Readex Pro',
+                                                    color: Color(0xFF020101),
+                                                  ),
                                             ),
                                           ),
                                           Align(
@@ -260,7 +266,11 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                           child: Text(
                                             'Senha',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  color: Color(0xFF020101),
+                                                ),
                                           ),
                                         ),
                                         Align(
@@ -374,7 +384,11 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                                           child: Text(
                                             'Confirme senha',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyMedium,
+                                                .bodyMedium
+                                                .override(
+                                                  fontFamily: 'Readex Pro',
+                                                  color: Color(0xFF020101),
+                                                ),
                                           ),
                                         ),
                                         Align(
