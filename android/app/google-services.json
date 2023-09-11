@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "940929952913",
+    "project_id": "livinbrazil-ab448",
+    "storage_bucket": "livinbrazil-ab448.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940929952913:android:ee36bbf8436c63914d2330",
+        "android_client_info": {
+          "package_name": "com.mycompany.teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940929952913-c80k1cueql390e14tpkdaokfvsk40o25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtBj3QPRaAdjLNW5rzuo7MCaeJdD01crs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940929952913-c80k1cueql390e14tpkdaokfvsk40o25.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "940929952913-rga5jikmp6nc3ucv9kkhqmibl4b01sbl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.teste"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
