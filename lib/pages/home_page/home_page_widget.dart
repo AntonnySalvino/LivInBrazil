@@ -449,16 +449,25 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 10.0, 0.0, 0.0),
-                                    child: Text(
-                                      'Esqueceu sua senha?',
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .override(
-                                            fontFamily: 'Readex Pro',
-                                            color: Color(0xFF545E66),
-                                            fontSize: 10.0,
-                                            fontWeight: FontWeight.w100,
-                                          ),
+                                    child: InkWell(
+                                      splashColor: Colors.transparent,
+                                      focusColor: Colors.transparent,
+                                      hoverColor: Colors.transparent,
+                                      highlightColor: Colors.transparent,
+                                      onTap: () async {
+                                        context.pushNamed('recuperarsenha');
+                                      },
+                                      child: Text(
+                                        'Esqueceu sua senha?',
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .override(
+                                              fontFamily: 'Readex Pro',
+                                              color: Color(0xFF545E66),
+                                              fontSize: 10.0,
+                                              fontWeight: FontWeight.w100,
+                                            ),
+                                      ),
                                     ),
                                   ),
                                   InkWell(

@@ -99,6 +99,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Menu',
           path: '/menu',
           builder: (context, params) => MenuWidget(),
+        ),
+        FFRoute(
+          name: 'recuperarsenha',
+          path: '/recuperarsenha',
+          builder: (context, params) => RecuperarsenhaWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
