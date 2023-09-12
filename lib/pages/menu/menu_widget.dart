@@ -44,119 +44,61 @@ class _MenuWidgetState extends State<MenuWidget> {
           width: MediaQuery.sizeOf(context).width * 1.0,
           height: MediaQuery.sizeOf(context).height * 1.0,
           decoration: BoxDecoration(
-            color: FlutterFlowTheme.of(context).secondaryBackground,
+            color: Color(0xFFFFFFFE),
           ),
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
               Row(
                 mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Container(
-                    width: MediaQuery.sizeOf(context).width * 1.0,
-                    height: MediaQuery.sizeOf(context).height * 0.152,
-                    decoration: BoxDecoration(
-                      color: FlutterFlowTheme.of(context).secondaryBackground,
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [
-                        Column(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  30.0, 7.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 0.392,
-                                height:
-                                    MediaQuery.sizeOf(context).height * 0.15,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
-                                      .secondaryBackground,
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/Design_sem_nome.png',
-                                    ).image,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
+                  Column(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Container(
+                        width: 100.0,
+                        height: 100.0,
+                        decoration: BoxDecoration(
+                          color: Color(0xFFFFFFFE),
+                          image: DecorationImage(
+                            fit: BoxFit.cover,
+                            image: Image.asset(
+                              'assets/images/Design_sem_nome_(1).png',
+                            ).image,
+                          ),
                         ),
-                        Column(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Align(
-                              alignment: AlignmentDirectional(1.00, -1.00),
-                              child: Container(
-                                width: MediaQuery.sizeOf(context).width * 0.5,
-                                height:
-                                    MediaQuery.sizeOf(context).height * 0.15,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
-                                      .secondaryBackground,
-                                ),
-                                child: Column(
-                                  mainAxisSize: MainAxisSize.max,
-                                  children: [
-                                    Container(
-                                      width: MediaQuery.sizeOf(context).width *
-                                          1.0,
-                                      height:
-                                          MediaQuery.sizeOf(context).height *
-                                              0.15,
-                                      decoration: BoxDecoration(
-                                        color: FlutterFlowTheme.of(context)
-                                            .secondaryBackground,
-                                      ),
-                                      child: Stack(
-                                        children: [
-                                          Align(
-                                            alignment: AlignmentDirectional(
-                                                0.67, -0.53),
-                                            child: Container(
-                                              width: 37.0,
-                                              height: 37.0,
-                                              decoration: BoxDecoration(
-                                                color: Color(0xFF38B6FF),
-                                                shape: BoxShape.circle,
-                                              ),
-                                            ),
-                                          ),
-                                          Align(
-                                            alignment: AlignmentDirectional(
-                                                0.56, 0.23),
-                                            child: Text(
-                                              'OLÁ, USUÁRIO!',
-                                              style: FlutterFlowTheme.of(
-                                                      context)
-                                                  .bodyMedium
-                                                  .override(
-                                                    fontFamily: 'Rubik',
-                                                    color: Color(0xFF38B6FF),
-                                                    fontSize: 14.0,
-                                                    fontWeight: FontWeight.w600,
-                                                  ),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ],
+                      ),
+                    ],
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Container(
+                        width: 50.0,
+                        height: 50.0,
+                        decoration: BoxDecoration(
+                          color: FlutterFlowTheme.of(context).secondary,
+                          shape: BoxShape.circle,
                         ),
-                      ],
-                    ),
+                      ),
+                      Text(
+                        'Olá, Antonny',
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'Rubik',
+                              color: Color(0xFF38B6FF),
+                              fontSize: 16.0,
+                              fontWeight: FontWeight.w600,
+                            ),
+                      ),
+                    ],
                   ),
                 ],
               ),
               Align(
-                alignment: AlignmentDirectional(0.00, -1.00),
+                alignment: AlignmentDirectional(0.00, 0.00),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: [
@@ -164,9 +106,9 @@ class _MenuWidgetState extends State<MenuWidget> {
                       alignment: AlignmentDirectional(0.00, 0.00),
                       child: Container(
                         width: MediaQuery.sizeOf(context).width * 1.0,
-                        height: MediaQuery.sizeOf(context).height * 0.583,
+                        height: MediaQuery.sizeOf(context).height * 0.6,
                         decoration: BoxDecoration(
-                          color: Color(0xFFEBEBEB),
+                          color: Color(0xFFFFFFFE),
                         ),
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
@@ -177,89 +119,83 @@ class _MenuWidgetState extends State<MenuWidget> {
                                 Container(
                                   width: MediaQuery.sizeOf(context).width * 1.0,
                                   height:
-                                      MediaQuery.sizeOf(context).height * 0.062,
+                                      MediaQuery.sizeOf(context).height * 0.08,
                                   decoration: BoxDecoration(
-                                    color: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
+                                    color: Color(0xFFFFFFFE),
                                   ),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceEvenly,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
                                     children: [
                                       Column(
                                         mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
                                         children: [
                                           Align(
                                             alignment: AlignmentDirectional(
                                                 0.00, 0.00),
-                                            child: Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      17.0, 10.0, 0.0, 0.0),
-                                              child: FFButtonWidget(
-                                                onPressed: () {
-                                                  print('Button pressed ...');
-                                                },
-                                                text: '',
-                                                icon: Icon(
-                                                  Icons.home,
+                                            child: FFButtonWidget(
+                                              onPressed: () {
+                                                print('Button pressed ...');
+                                              },
+                                              text: 'Home',
+                                              options: FFButtonOptions(
+                                                width:
+                                                    MediaQuery.sizeOf(context)
+                                                            .width *
+                                                        0.2,
+                                                height:
+                                                    MediaQuery.sizeOf(context)
+                                                            .height *
+                                                        0.035,
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        0.0, 0.0, 0.0, 0.0),
+                                                iconPadding:
+                                                    EdgeInsetsDirectional
+                                                        .fromSTEB(
+                                                            0.0, 0.0, 0.0, 0.0),
+                                                color: Color(0xFFFFFFFE),
+                                                textStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      fontFamily: 'Open Sans',
+                                                      color: Color(0xFF38B6FF),
+                                                      fontSize: 1.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                elevation: 3.0,
+                                                borderSide: BorderSide(
                                                   color: Color(0xFF38B6FF),
-                                                  size: 17.0,
+                                                  width: 2.0,
                                                 ),
-                                                options: FFButtonOptions(
-                                                  width:
-                                                      MediaQuery.sizeOf(context)
-                                                              .width *
-                                                          0.2,
-                                                  height:
-                                                      MediaQuery.sizeOf(context)
-                                                              .height *
-                                                          0.035,
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(
-                                                          24.0, 0.0, 24.0, 0.0),
-                                                  iconPadding:
-                                                      EdgeInsetsDirectional
-                                                          .fromSTEB(2.5, 0.0,
-                                                              0.0, 0.0),
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryBackground,
-                                                  textStyle: FlutterFlowTheme
-                                                          .of(context)
-                                                      .titleMedium
-                                                      .override(
-                                                        fontFamily: 'Oswald',
-                                                      ),
-                                                  elevation: 3.0,
-                                                  borderSide: BorderSide(
-                                                    color: Color(0xFF38B6FF),
-                                                    width: 2.0,
-                                                  ),
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          10.0),
-                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(10.0),
                                               ),
+                                              showLoadingIndicator: false,
                                             ),
                                           ),
                                         ],
                                       ),
                                       Column(
                                         mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
                                         children: [
-                                          Padding(
-                                            padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    14.0, 10.0, 0.0, 0.0),
+                                          Align(
+                                            alignment: AlignmentDirectional(
+                                                0.00, 0.00),
                                             child: FFButtonWidget(
                                               onPressed: () {
                                                 print('Button pressed ...');
                                               },
-                                              text: '',
-                                              icon: Icon(
-                                                Icons.search,
-                                                size: 17.0,
-                                              ),
+                                              text: 'Pesquisar',
                                               options: FFButtonOptions(
                                                 width:
                                                     MediaQuery.sizeOf(context)
@@ -271,28 +207,26 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                         0.035,
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(
-                                                        24.0, 0.0, 24.0, 0.0),
+                                                        0.0, 0.0, 0.0, 0.0),
                                                 iconPadding:
                                                     EdgeInsetsDirectional
                                                         .fromSTEB(
-                                                            3.5, 0.0, 0.0, 0.0),
+                                                            0.0, 0.0, 0.0, 0.0),
                                                 color: Color(0xFF38B6FF),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .displaySmall
-                                                        .override(
-                                                          fontFamily: 'Outfit',
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .secondaryBackground,
-                                                          fontSize: 23.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                        ),
+                                                textStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      fontFamily: 'Open Sans',
+                                                      color: Color(0xFFFFFFFE),
+                                                      fontSize: 1.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
                                                 elevation: 3.0,
                                                 borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1.0,
+                                                  color: Color(0xFF38B6FF),
+                                                  width: 2.0,
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(10.0),
@@ -303,20 +237,17 @@ class _MenuWidgetState extends State<MenuWidget> {
                                       ),
                                       Column(
                                         mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
                                         children: [
-                                          Padding(
-                                            padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    14.0, 10.0, 0.0, 0.0),
+                                          Align(
+                                            alignment: AlignmentDirectional(
+                                                0.00, 0.00),
                                             child: FFButtonWidget(
                                               onPressed: () {
                                                 print('Button pressed ...');
                                               },
-                                              text: '',
-                                              icon: Icon(
-                                                Icons.phone,
-                                                size: 17.0,
-                                              ),
+                                              text: 'Suporte',
                                               options: FFButtonOptions(
                                                 width:
                                                     MediaQuery.sizeOf(context)
@@ -328,24 +259,26 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                         0.035,
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(
-                                                        24.0, 0.0, 24.0, 0.0),
+                                                        0.0, 0.0, 0.0, 0.0),
                                                 iconPadding:
                                                     EdgeInsetsDirectional
                                                         .fromSTEB(
-                                                            3.0, 0.0, 0.0, 0.0),
+                                                            0.0, 0.0, 0.0, 0.0),
                                                 color: Color(0xFF38B6FF),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleSmall
-                                                        .override(
-                                                          fontFamily:
-                                                              'Readex Pro',
-                                                          color: Colors.white,
-                                                        ),
+                                                textStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      fontFamily: 'Open Sans',
+                                                      color: Color(0xFFFFFFFE),
+                                                      fontSize: 1.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
                                                 elevation: 3.0,
                                                 borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1.0,
+                                                  color: Color(0xFF38B6FF),
+                                                  width: 2.0,
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(10.0),
@@ -356,20 +289,17 @@ class _MenuWidgetState extends State<MenuWidget> {
                                       ),
                                       Column(
                                         mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
                                         children: [
-                                          Padding(
-                                            padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    14.0, 10.0, 0.0, 0.0),
+                                          Align(
+                                            alignment: AlignmentDirectional(
+                                                0.00, 0.00),
                                             child: FFButtonWidget(
                                               onPressed: () {
                                                 print('Button pressed ...');
                                               },
-                                              text: '',
-                                              icon: Icon(
-                                                Icons.person,
-                                                size: 25.0,
-                                              ),
+                                              text: 'Ajustes',
                                               options: FFButtonOptions(
                                                 width:
                                                     MediaQuery.sizeOf(context)
@@ -381,24 +311,26 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                         0.035,
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(
-                                                        24.0, 0.0, 24.0, 0.0),
+                                                        0.0, 0.0, 0.0, 0.0),
                                                 iconPadding:
                                                     EdgeInsetsDirectional
                                                         .fromSTEB(
-                                                            1.0, 0.0, 0.0, 0.0),
+                                                            0.0, 0.0, 0.0, 0.0),
                                                 color: Color(0xFF38B6FF),
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleSmall
-                                                        .override(
-                                                          fontFamily:
-                                                              'Readex Pro',
-                                                          color: Colors.white,
-                                                        ),
+                                                textStyle: FlutterFlowTheme.of(
+                                                        context)
+                                                    .titleMedium
+                                                    .override(
+                                                      fontFamily: 'Open Sans',
+                                                      color: Color(0xFFFFFFFE),
+                                                      fontSize: 1.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
                                                 elevation: 3.0,
                                                 borderSide: BorderSide(
-                                                  color: Colors.transparent,
-                                                  width: 1.0,
+                                                  color: Color(0xFF38B6FF),
+                                                  width: 2.0,
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(10.0),
@@ -497,7 +429,7 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                                             .bodyMedium
                                                                             .override(
                                                                               fontFamily: 'Rubik',
-                                                                              color: FlutterFlowTheme.of(context).secondaryBackground,
+                                                                              color: Color(0xFFFFFFFE),
                                                                               fontSize: 16.0,
                                                                               fontWeight: FontWeight.w600,
                                                                             ),
@@ -559,9 +491,8 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                                   .override(
                                                                     fontFamily:
                                                                         'Rubik',
-                                                                    color: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .secondaryBackground,
+                                                                    color: Color(
+                                                                        0xFFFFFFFE),
                                                                     fontSize:
                                                                         12.0,
                                                                     fontWeight:
@@ -584,9 +515,8 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                               .override(
                                                                 fontFamily:
                                                                     'Rubik',
-                                                                color: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .secondaryBackground,
+                                                                color: Color(
+                                                                    0xFFFFFFFE),
                                                                 fontSize: 12.0,
                                                                 fontWeight:
                                                                     FontWeight
@@ -722,7 +652,7 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                                             fontFamily:
                                                                                 'Rubik',
                                                                             color:
-                                                                                FlutterFlowTheme.of(context).secondaryBackground,
+                                                                                Color(0xFFFFFFFE),
                                                                             fontSize:
                                                                                 16.0,
                                                                             fontWeight:
@@ -906,7 +836,7 @@ class _MenuWidgetState extends State<MenuWidget> {
                                                                           fontFamily:
                                                                               'Rubik',
                                                                           color:
-                                                                              FlutterFlowTheme.of(context).secondaryBackground,
+                                                                              Color(0xFFFFFFFE),
                                                                           fontSize:
                                                                               16.0,
                                                                           fontWeight:
