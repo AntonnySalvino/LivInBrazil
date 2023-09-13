@@ -42,7 +42,7 @@ class _RecuperarsenhaWidgetState extends State<RecuperarsenhaWidget> {
       key: scaffoldKey,
       backgroundColor: Color(0xFFFFFFFE),
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: Color(0xFFFFFFFE),
         automaticallyImplyLeading: false,
         leading: FlutterFlowIconButton(
           borderColor: Colors.transparent,
@@ -130,7 +130,7 @@ class _RecuperarsenhaWidgetState extends State<RecuperarsenhaWidget> {
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
                 child: Text(
-                  'Forgot Password',
+                  'Recuperar senha',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
                         fontFamily: 'Open Sans',
                         color: Color(0xFF060505),
@@ -170,7 +170,7 @@ class _RecuperarsenhaWidgetState extends State<RecuperarsenhaWidget> {
                       ),
                       focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).primary,
+                          color: Color(0xFF38B6FF),
                           width: 2.0,
                         ),
                         borderRadius: BorderRadius.circular(12.0),
