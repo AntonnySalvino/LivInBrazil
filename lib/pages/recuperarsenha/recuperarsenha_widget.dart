@@ -190,8 +190,7 @@ class _RecuperarsenhaWidgetState extends State<RecuperarsenhaWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       filled: true,
-                      fillColor:
-                          FlutterFlowTheme.of(context).secondaryBackground,
+                      fillColor: Color(0xFFFFFFFE),
                       contentPadding: EdgeInsetsDirectional.fromSTEB(
                           24.0, 24.0, 20.0, 24.0),
                     ),
